@@ -8,18 +8,14 @@ import Table from './components/Table'
 
 function App() {
 
-  const y=[2024,2025,2026,2027];
-  const company ={name:"KIET", location:"Ghaziabad", established:1998};
   return (
     <div>
-      <Header title="Today we will learn about props in React"></Header>
+       <Header title="Today we will learn about props in React" color="Red"></Header>
       <Header title="Thanks"></Header>
-      <div className="card">
-        <h2>Welcome to Props Learning!</h2>
-        <p>Props are used to pass data from parent to child components in React.</p>
-        <Table name="John Doe" age="30" city="New York"></Table>
-      </div>
-      <Footer year= {y} company={company} text="2026 by KIET"></Footer>
+      <card>
+       <h1>I am invincible</h1>
+      </card>
+      
     </div>
     
   )
